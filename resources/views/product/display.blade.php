@@ -14,7 +14,7 @@
                     @if($product->product_image)
                     <img src="<?php echo asset($product->product_image) ?>" class="card-img-top" style="height:170px;" />
                     @else
-                    <img src="<?php echo asset('/storage/noimage.jpg') ?>" class="card-img-top" style="height:170px;" />
+                    <img src="<?php echo asset('/images/noimage.jpg') ?>" class="card-img-top" style="height:170px;" />
                     @endif
                     <div class="card-body">
                         <h5 class="card-title">{{$product->product_name}}</h5>

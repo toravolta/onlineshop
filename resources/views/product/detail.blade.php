@@ -13,7 +13,7 @@
                     @if($product->product_image)
                     <img src="<?php echo asset($product->product_image) ?>" class="img-fluid img-thumbnail"></img>
                     @else
-                    <img src="<?php echo asset('/storage/noimage.jpg') ?>" class="img-fluid img-thumbnail"></img>
+                    <img src="<?php echo asset('/images/noimage.jpg') ?>" class="img-fluid img-thumbnail"></img>
                     @endif
                 </div>
                 <div class="col-md-8">

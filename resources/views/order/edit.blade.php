@@ -23,7 +23,7 @@
                                     @if($order->product_image)
                                     <img src="<?php echo asset($order->product_image) ?>" class="img-thumbnail" style="width:140px; height:140px;">
                                     @else
-                                    <img src=" <?php echo asset('/storage/noimage.jpg') ?>" class="img-thumbnail" style="width:140px; height:140px;">
+                                    <img src=" <?php echo asset('/images/noimage.jpg') ?>" class="img-thumbnail" style="width:140px; height:140px;">
                                     @endif
                                 </div>
                                 <div class=" col-sm-8">
